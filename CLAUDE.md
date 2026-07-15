@@ -67,6 +67,15 @@ All source code resides inside the `/src` folder, organized logically as follows
   - `MyComponent/MyComponent.css`
   - `MyComponent/MyComponent.test.tsx`
 
+### 📝 Form Design & Accessibility Rules
+- **Submission Loading States**: All form fields (inputs, buttons, textareas, checkboxes) MUST be disabled while submission loading is true to prevent duplicate submissions and user input race conditions.
+- **Dynamic Validation UX**: Validate all fields on form submission. However, once a field error is active, individual field validation MUST run on-change (`onChange`) and clear the error immediately when the field value becomes valid, rather than waiting for another submit attempt.
+- **A11y Compliance for Forms & Alerts**:
+  - Input fields with active validation errors MUST set `aria-invalid="true"` and define `aria-describedby` pointing to the error element's `id`.
+  - All form controls must have a corresponding `<label>` tag linked via `htmlFor`.
+  - Actionable icon buttons (like toast close buttons) MUST have an `aria-label`.
+  - Success toasts or live notification alerts MUST contain `role="status"` and `aria-live="polite"` to ensure proper screen reader announcements.
+
 ### Styling & CSS Architecture
 - **Vanilla CSS**: Define a unified design system in `src/assets/styles/variables.css` using custom properties:
   ```css

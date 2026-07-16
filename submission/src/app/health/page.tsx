@@ -1,3 +1,4 @@
+import React from 'react';
 
 export const metadata = {
   title: 'System Health - Capstone Portal',

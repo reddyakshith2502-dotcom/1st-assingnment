@@ -1,10 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Navbar from './Navbar';
-import { Geist } from "next/font/google";
-import { cn } from "@/lib/utils";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: 'Capstone Portal - Foundations',
@@ -17,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cn("h-full", "font-sans", geist.variable)}>
+    <html lang="en" className="h-full">
       <body className="flex min-h-full flex-col font-sans bg-bg text-text antialiased">
         {/* Decorative glowing background glow for dark mode */}
         <div className="glowing-bg" />

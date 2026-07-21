@@ -32,7 +32,7 @@ Tone & Style Guidelines:
  * Creates a simulated Server-Sent Event (SSE) ReadableStream for local testing 
  * when ANTHROPIC_API_KEY is not set in environment variables.
  */
-export function createMockStreamResponse(promptMessage: string): ReadableStream<Uint8Array> {
+export function createMockStreamResponse(_promptMessage: string): ReadableStream<Uint8Array> {
   const encoder = new TextEncoder();
   
   const mockResponses: Record<string, string> = {

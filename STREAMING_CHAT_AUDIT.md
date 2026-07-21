@@ -8,7 +8,8 @@
 
 ## 1. Live Streaming Interactive Route Details
 
-- **Live Interaction Preview URL**: `https://1st-assingnment.vercel.app/chat`
+- **Vercel Account Dashboard**: [reddyakshith2502-9087s-projects](https://vercel.com/reddyakshith2502-9087s-projects)
+- **Live Streaming Interaction Preview**: [https://1st-assingnment-reddyakshith2502-9087s-projects.vercel.app/chat](https://1st-assingnment-reddyakshith2502-9087s-projects.vercel.app/chat)
 - **API Route Handler Permalink**: [`src/app/api/chat/route.ts`](https://github.com/reddyakshith2502-dotcom/1st-assingnment/blob/master/src/app/api/chat/route.ts)
 - **Streaming Component Permalink**: [`src/components/StreamingChat/index.tsx`](https://github.com/reddyakshith2502-dotcom/1st-assingnment/blob/master/src/components/StreamingChat/index.tsx)
 - **Model Config Permalinks**: [`src/lib/ai-config.ts`](https://github.com/reddyakshith2502-dotcom/1st-assingnment/blob/master/src/lib/ai-config.ts)

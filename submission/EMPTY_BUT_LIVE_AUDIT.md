@@ -8,9 +8,9 @@
 
 ## 1. Live Reachable Deployment Details
 
-- **Host Platform**: Vercel / GitHub Pages (Free Production Tier)
-- **Live Production URL**: `https://1st-assingnment.vercel.app` *(or `https://reddyakshith2502-dotcom.github.io/1st-assingnment`)*
-- **GitHub Repository**: `https://github.com/reddyakshith2502-dotcom/1st-assingnment`
+- **Vercel Account Dashboard**: [reddyakshith2502-9087s-projects](https://vercel.com/reddyakshith2502-9087s-projects)
+- **Live Production URL**: [https://1st-assingnment-reddyakshith2502-9087s-projects.vercel.app](https://1st-assingnment-reddyakshith2502-9087s-projects.vercel.app)
+- **GitHub Repository**: [https://github.com/reddyakshith2502-dotcom/1st-assingnment](https://github.com/reddyakshith2502-dotcom/1st-assingnment)
 - **Branch Deployed**: `master` / `feature/settings-precise`
 - **Tech Stack**: Next.js 16 (App Router) + React 19 + TypeScript + Vitest + Tailwind CSS
 

@@ -11,6 +11,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'Settings', path: '/settings' },
+    { name: 'AI Chat', path: '/chat' },
     { name: 'Health Check', path: '/health' },
   ];
 
